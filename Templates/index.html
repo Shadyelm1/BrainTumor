@@ -2,14 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BrainScanAI</title>
+    <title>BrainScanAI - Brain Tumor Detection</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 80%;
+            max-width: 500px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .file-input {
+            margin: 20px 0;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>BrainScanAI</h1>
-    <form action="/" method="post" enctype="multipart/form-data">
-        <label for="file">Upload an image:</label>
-        <input type="file" name="file" id="file" required>
-        <input type="submit" value="Upload and Analyze">
-    </form>
-</body>
+    <div class="container">
+        <h1>BrainScanAI</h1>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <div class="file-input">
+                <input type="file" name="file" id="file" required>
+            </div>
+            <input type="submit" value="Upload and Analyze" class="button">
+        </form>
+    </div>
+ 
 </html>
