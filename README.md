@@ -4,4 +4,6 @@ I developed a Convolutional Neural Network (CNN) model that accurately detects b
 You can view the data in the /MRI_Data/ folder or on [Kaggle](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection) .
 
 
-[**Demo**]([https://youtu.be/rWQZEz7a5XI](https://youtu.be/JmfWoqyBNvc)https://youtu.be/JmfWoqyBNvc)
+**Demo**
+
+[5347ce76-8ad9-4c55-bd2e-cc8b25d50ed5.webm](https://github.com/Shadyelm1/BrainTumor/assets/154931115/2e3ed01e-3d98-41a1-b1d3-360a1b76786d)
